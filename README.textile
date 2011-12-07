@@ -1,6 +1,30 @@
-h1. jQuery plugin for Jade templating on the browser
+h1. jQuery Jade
 
-h2. Demos
+jQuery plugin for "https://github.com/visionmedia/jade":Jade templating on the browser
+
+h2. Requirements
+
+ * jQuery
+ * "https://github.com/visionmedia/jade/blob/master/jade.min.js":Browser version of "https://github.com/visionmedia/jade":Jade
+
+h2. Usage
+
+ * *tpl:* Use a Jade string, a DOM element or jQuery element as a template.
+ * *locals:* Use an object with the local variables you want to pass over to the template.
+
+<pre>$('selector').jade(tpl, locals);</pre>
+
+In order to use a DOM element or jQuery element as a template, you can use a @<script>@ tag with a @type="text/jade"@ attribute, CDATA blocks are optional but useful to validate your code.
+
+<pre>
+<script id="tpl" type="text/jade">
+	//<![CDATA[
+		p= content
+	//]]>
+</script>
+</pre>
+
+h2. Code example
 
 <pre>
 <section id="demo-1"></section>
@@ -8,9 +32,9 @@ h2. Demos
 <section id="demo-3"></section>
 
 <script id="tpl" type="text/jade">
-	<![CDATA[
+	//<![CDATA[
 		p= content
-	]]>
+	//]]>
 </script>
 
 <script src="jquery.min.js"></script>
