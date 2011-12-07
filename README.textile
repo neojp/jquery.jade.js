@@ -4,7 +4,7 @@ jQuery plugin for "Jade":https://github.com/visionmedia/jade templating on the b
 
 h2. Requirements
 
- * jQuery
+ * "jQuery":http://jquery.com
  * "Browser version":https://github.com/visionmedia/jade/blob/master/jade.min.js of "Jade":https://github.com/visionmedia/jade
 
 h2. Usage
@@ -14,7 +14,7 @@ h2. Usage
 
 <pre>$('selector').jade(tpl, locals);</pre>
 
-In order to use a DOM element or jQuery element as a template, you can use a @<script>@ tag with a @type="text/jade"@ attribute, CDATA blocks are optional but useful to validate your code.
+In order to use a DOM element or jQuery element as a template, you can use a @<script>@ tag with a @type="text/jade"@ attribute, @CDATA@ blocks are optional but useful to validate your code.
 
 <pre>
 <script id="tpl" type="text/jade">
