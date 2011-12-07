@@ -1,0 +1,26 @@
+h1. jQuery plugin for Jade templating on the browser
+
+h2. Demos
+
+<pre>
+<section id="demo-1"></section>
+<section id="demo-2"></section>
+<section id="demo-3"></section>
+
+<script id="tpl" type="text/jade">
+	<![CDATA[
+		p= content
+	]]>
+</script>
+
+<script src="jquery.min.js"></script>
+<script src="jade.js"></script>
+<script src="jquery.jade.min.js"></script>
+<script>
+
+	$('#demo-1').jade('p Demo #1');
+	$('#demo-2').jade('p= content', { content: 'Demo #2' });
+	$('#demo-3').jade( $('#tpl') , { content: 'Demo #3' });
+
+</script>
+</pre>
