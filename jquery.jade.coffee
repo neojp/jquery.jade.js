@@ -1,7 +1,7 @@
-# jQuery.fn.jade by Joan Piedra
-# github.com/neojp/
-# tpl : string | element | jQuery object
-# locals : object
+# jQuery.jade by Joan Piedra
+# https://github.com/neojp/jquery.jade
+# @tpl : string | element | jQuery object
+# @locals : object
 
 (($) ->
 
