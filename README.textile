@@ -1,11 +1,11 @@
 h1. jQuery Jade
 
-jQuery plugin for "https://github.com/visionmedia/jade":Jade templating on the browser
+jQuery plugin for "Jade":https://github.com/visionmedia/jade templating on the browser
 
 h2. Requirements
 
  * jQuery
- * "https://github.com/visionmedia/jade/blob/master/jade.min.js":Browser version of "https://github.com/visionmedia/jade":Jade
+ * "Browser version":https://github.com/visionmedia/jade/blob/master/jade.min.js of "Jade":https://github.com/visionmedia/jade
 
 h2. Usage
 
