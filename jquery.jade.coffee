@@ -5,8 +5,9 @@
 
 (($) ->
 
+	jade = require('jade')
+	
 	$.fn.jade = (tpl = '', locals = {}) ->
-		jade = require('jade')
 
 		if !jade
 			return
